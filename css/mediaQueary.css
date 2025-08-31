@@ -1,0 +1,171 @@
+@media (max-width:1400px) {
+    .library {
+        position: absolute;
+        top: -53px;
+        left: -100%;
+        transition: all 0.2s ease-in-out;
+        z-index: 1;
+        width: 360px !important;
+        height: 635px !important;
+        z-index: 2;
+    }
+
+    .song-list {
+        max-height: 480px !important;
+        overflow-y: auto !important;
+        padding-right: 5px !important;
+    }
+
+    header .logo i {
+        display: block !important;
+    }
+
+    .all-music-podcast {
+        margin-left: 10px !important;
+        width: 100vw !important;
+    }
+
+    .playBar {
+        height: 85px !important;
+        padding: 16px 20px !important;
+    }
+
+    .all-music-podcast {
+        height: 90vh !important;
+    }
+
+    header .button,
+    header .install,
+    header .home-svg {
+        display: none;
+    }
+
+    .all-music-podcast .music-controler .playing-view,
+    .all-music-podcast .music-controler .ri-timeline-view,
+    /* .all-music-podcast .music-controler .ri-timeline-view, */
+    .all-music-podcast .music-controler .ri-speaker-line {
+        display: none;
+    }
+}
+
+@media (max-width:950px) {
+    .music-controler {
+        display: none;
+    }
+
+    .library {
+        position: absolute;
+        top: -40px;
+        left: -100%;
+        transition: all 0.2s ease-in-out;
+        z-index: 1;
+        width: 360px !important;
+        height: 635px !important;
+        z-index: 2;
+    }
+
+    .all-music-podcast {
+        height: 93.5vh !important;
+    }
+
+    .seekBar-container .seekBar {
+        width: 100%;
+    }
+
+    .seekBar-container .current-time,
+    .seekBar-container .total-time {
+        margin: 0%;
+    }
+
+    header .input-group input {
+        padding: 0px 5px !important;
+    }
+
+    .input-group img {
+        width: 15px;
+    }
+
+    .input-group .file-svg,
+    header .logo img {
+        width: 20px;
+    }
+
+    header .my-svg {
+        width: 25px;
+        border: 4px solid rgb(41, 41, 41) !important;
+    }
+
+    header .logo i {
+        font-size: 20px;
+    }
+
+    .search-home input {
+        background-color: transparent;
+        color: white;
+        border: transparent;
+        margin: 0px 0px !important;
+        font-size: 12px !important;
+        width: 250px !important;
+    }
+}
+
+@media (max-width:550px) {
+
+    header .logo img,
+    header .people-svg {
+        display: none;
+    }
+
+    .allSongs {
+        justify-content: center !important;
+    }
+
+    header .logo i {
+        font-size: 16px;
+    }
+
+    header .input-group {
+        margin-left: 0px;
+    }
+
+    header .bell-svg {
+        margin-right: 10px;
+        width: 15px;
+    }
+
+    .search-home input {
+        background-color: transparent;
+        color: white;
+        border: transparent;
+        margin: 0px 0px !important;
+        font-size: 12px !important;
+        width: 200px !important;
+    }
+
+    .header {
+        margin: 8px 14px !important;
+    }
+
+    .allSongs {
+        max-height: 78% !important;
+    }
+}
+
+@media(max-width:431px) {
+    .library {
+        left: -120%;
+        transition: all 0.2s ease-in-out;
+        z-index: 1;
+        width: 350px !important;
+        height: 625px !important;
+        z-index: 2;
+    }
+
+    .allSongs {
+        justify-content: center !important;
+    }
+
+    .all-music-podcast {
+        height: 89.9vh !important;
+    }
+}

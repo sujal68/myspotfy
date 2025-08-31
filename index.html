@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify (Made By Sujal)</title>
+    <!-- font family  -->
+    <link rel="stylesheet" href="font-family/stylesheet.css">
+    <!-- remixicon  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- media queary  -->
+    <link rel="stylesheet" href="css/mediaQueary.css">
+    <!-- utiliy css link  -->
+    <link rel="stylesheet" href="css/utility.css">
+    <!-- main link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header flex justify-content-between align-item-center">
+            <div class="logo flex align-item-center">
+                <i class="ri-list-radio hame-burger fs-2_5"
+                    style="cursor: pointer; margin-right: 10px; display: none;"></i>
+                <img src="svg/logo.svg" alt="" class="invert" style="cursor: pointer;">
+            </div>
+            <div class="search-home flex justify-content-center">
+                <img src="svg/home.svg" alt="" class="home-svg invert" width="25px">
+                <div class="input-group">
+                    <img src="svg/search.svg" alt="" class="invert" width="26px">
+                    <input type="text" placeholder="What do you want to play?">
+                    <img src="svg/file.svg" alt="" class="file-svg invert" width="30px" style="cursor: pointer;">
+                </div>
+            </div>
+            <div class="profile flex align-item-center justify-content-between">
+                <div class="button">
+                    <button>Explore Premium</button>
+                </div>
+                <div class="install flex align-item-center">
+                    <img src="svg/install.svg" alt="" class="invert" width="18px">
+                    <p>Install App</p>
+                </div>
+                <img src="svg/bell.svg" alt="" class="bell-svg invert" width="18px" style="cursor: pointer;">
+                <img src="svg/people.svg" alt="" class="people-svg invert" width="18px"
+                    style="margin:0px 20px; cursor: pointer;">
+                <img src="img/my.jpg" class="my-svg" alt="" width="40px"
+                    style="border-radius: 50%; border: 6px solid rgb(41, 41, 41); cursor: pointer;">
+            </div>
+        </div>
+    </header>
+    <section class="spotifyPlayList">
+        <div class="container flex justify-content-between  position-relative">
+            <div class="library">
+                <div class="library-header">
+                    <div class="header-up flex justify-content-between align-item-center">
+                        <i class="ri-collage-line"></i>
+                        <h5>Your Library</h5>
+                        <div class="library-icon">
+                            <i class="ri-add-fill"></i>
+                            <i class="ri-close-circle-line close-icon" style="font-size: 25px; cursor: pointer;"></i>
+                        </div>
+                    </div>
+                    <div class="header-down flex">
+                        <div class="playlist-button">
+                            <button>Playlists</button>
+                        </div>
+                        <div class="Artist">
+                            <button>Artists</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="library-body">
+                    <div class="library-body-header flex justify-content-between align-item-center">
+                        <div class="library-search"><i class="ri-search-2-line"></i></div>
+                        <div class="recent">
+                            <p>Recents<i class="ri-list-unordered"></i></p>
+                        </div>
+                    </div>
+                    <div class="song-list">
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="all-music-podcast">
+                <div class="all-header">
+                    <h5>All</h5>
+                </div>
+                <h2>Recently played</h2>
+                <div class="allSongs"></div>
+                <div class="playBar position-absolute">
+                    <div class="topRow flex align-item-center justify-content-between">
+                        <div class="playing-song flex align-item-center">
+                            <i class="ri-music-2-fill"></i>
+                            <div class="music-content">
+                                <h5></h5>
+                                <h6></h6>
+                            </div>
+                        </div>
+
+                        <div class="play-pause-nextPrevious">
+                            <div class="icon flex align-item-center">
+                                <i class="ri-shuffle-line fs-1_5"></i>
+                                <i id="previous" class="ri-skip-left-fill fs-3"></i>
+                                <i id="play" class="ri-play-large-fill fs-2"></i>
+                                <i id="next" class="ri-skip-right-fill fs-3"></i>
+                                <i class="ri-repeat-2-line fs-1_5"></i>
+                            </div>
+                        </div>
+
+                        <div class="music-controler">
+                            <div class="comtroll-icon flex align-item-center">
+                                <i class="playing-view ri-play-fill"></i>
+                                <i class="ri-timeline-view"></i>
+                                <i class="ri-speaker-line"></i>
+                                <i class="ri-volume-up-line"></i>
+                                <input type="range" id="volume" class="volume-seekbar" min="0" max="1" step="0.01"
+                                    value="1">
+                                <i class="ri-checkbox-multiple-blank-line"></i>
+                                <i class="ri-fullscreen-line"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="seekBar-container">
+                        <span class="current-time">0:00</span>
+                        <div class="seekBar">
+                            <div class="circle"></div>
+                        </div>
+                        <span class="total-time">0:00</span>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
