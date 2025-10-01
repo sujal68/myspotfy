@@ -93,6 +93,6 @@ This clone demonstrates smooth **frontend interactions, responsive layouts, and 
 
 ## CONTACT
 - GitHub: @sujal68 https://github.com/sujal68
-- Email: your-email@example.com  
+- Email: sujalkidecha68@gmail.com
 
 **Made with ❤️ by Sujal Kidecha**
