@@ -1,6 +1,6 @@
 # 🎵 Spotify Clone Website
 
-![Spotify Banner](images/banner.png)
+![Spotify Banner](img/banner.png)
 
 ## PROJECT INTRODUCTION
 
@@ -52,12 +52,12 @@ This clone demonstrates smooth **frontend interactions, responsive layouts, and 
 ## SCREENSHOTS / IMAGE GALLERY
 
 ### Desktop Preview
-| ![Banner](images/banner.png) | ![Banner2](images/banner2.png) | ![Songs](images/songs-img.png) |
+| ![Banner](img/banner.png) | ![Banner2](img/banner2.png) | ![Songs](img/songs-img.png) |
 |:----------------------------:|:------------------------------:|:-----------------------------:|
 | Banner Section               | Secondary Banner Section        | Songs / Playlist Section      |
 
 ### Mobile Preview
-| ![Mobile Banner](images/mobile-banner.jpg) | ![Mobile Playlist](images/mobile-playlist.jpg) |
+| ![Mobile Banner](img/mobile-banner.jpg) | ![Mobile Playlist](img/mobile-playlist.jpg) |
 |:----------------------------------------:|:--------------------------------------------:|
 | Mobile Banner                             | Mobile Playlist / Song List                   |
 
