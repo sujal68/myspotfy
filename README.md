@@ -70,7 +70,6 @@ This clone demonstrates smooth **frontend interactions, responsive layouts, and 
 - **Flow:**  
   1. User lands on home page → sees hero banner  
   2. Playlist section displays songs with play/pause controls  
-  3. Search functionality filters songs dynamically  
   4. Mobile screens adapt with responsive layout  
 
 - **Optional Diagram Placeholders:** UI Flow, ER Diagram, or Wireframes  
